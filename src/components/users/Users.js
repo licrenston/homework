@@ -18,7 +18,7 @@ const Users = () => {
     },[])
 
     return (
-        <div className={'ggg'}>
+        <div>
             {
                 users.map(user => <User key={user.id} user={user} showUser={showUser}/>)
             }
